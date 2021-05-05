@@ -1,0 +1,73 @@
+body {
+    background: rgb(195,55,100);
+    background: linear-gradient(193deg, rgba(195,55,100,1) 27%, rgba(29,38,113,1) 72%);
+    padding: 80px 0 80px;
+}
+header {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+section {
+    height: 350px;
+    background-color: #d6d3d3;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 10px solid rgb(0, 0, 0);
+}
+th, td {
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 30px;
+}
+form{
+    background: #000000;
+    border-radius: 80px;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px 25px;
+}
+.myButton {
+	background-color:#0400ff;
+	border-radius:25px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:14px 42px;
+	text-decoration:none;
+    text-align: center;
+    margin: 50px 205px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+}
+.myButton:hover {
+	background-color:#1d2671;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+.input-control{
+    border-radius: 5px;
+    padding: 5px;
+}

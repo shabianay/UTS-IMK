@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>CheckOut</title>
+<link rel="stylesheet" href="css/pemesanan.css" type="text/css" />
+<link rel="shortcut icon" href="images/logo.png" />
+<script type="text/javascript" src="js/pemesanan.js"></script>
+</head>
+
+<body>
+<header>
+<h1>CHECKOUT</h1>
+</header>
+<form name="pemesanan" action="#">
+<table cellpadding=3 border="1">
+<tr>
+<th width=30>No.</th>
+<th width=280>Makanan/Minuman</th>
+<th width=120>Harga</th>
+<th width=200>Jumlah Pesan</th>
+</tr>
+
+<tr>
+<td> 1.</td>
+<td>Americano</td>
+<td>Rp. <input type="text" name="harga1" value="12000" size=5 readonly></td>
+<td><center><input type="number" name="jumlah1" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td> 2.</td>
+<td>Espresso</td>
+<td>Rp. <input type="text" name="harga2" value="10000" size=5 readonly></td>
+<td><center><input type="number" name="jumlah2" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td> 3.</td>
+<td>Cappucino</td>
+<td>Rp. <input type="text" name="harga3" value="13000" size=5 readonly></td>
+<td><center><input type="number" name="jumlah3" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td> 4.</td>
+<td>Signature Coffee</td>
+<td>Rp. <input type="text" name="harga4" value="18000" size=5 readonly></td>
+<td><center><input type="number" name="jumlah4" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td> 5.</td>
+<td>CoCoffee (Coconut Coffee)</td>
+<td>Rp. <input type="text" name="harga5" value="15000" size=5 readonly></td>
+<td><center><input type="number" name="jumlah5" onchange="proses()" size=12 style="text-align:center"></center></td>
+</tr>
+
+<tr>
+<td colspan=3 align="right">JUMLAH TOTAL</td>
+<td><center>Rp. <input type="text" name="total" size=8 style="text-align:center" readonly></center></td>
+</td>
+
+<tr>
+<td colspan=3 align="right">DISKON</td>
+<td><center>Rp. <input type="text" name="potongan" size=8 style="text-align:center" readonly></center></td>
+</td>
+
+<tr>
+<td colspan=3 align="right">JUMLAH BAYAR</td>
+<td><center>Rp. <input type="text" name="bayar" size=8 style="text-align:center" readonly></center></td>
+</td>
+
+<tr>
+<td colspan=3 align="right">METODE PEMBAYARAN</td>
+<td><center><select class="input-control">
+    <option value=""></option>
+    <option value="1">Transfer Bank</option>
+    <option value="2">COD (Bayar di tempat)</option>
+    <option value="3">OVO</option>
+    <option value="4">GOPAY</option>
+    <option value="5">Alfamart</option>
+    <option value="6">Indomaret</option>
+  </select>
+</td>
+
+</table>
+<br />
+<button type="button" class="myButton" onclick="myFunction()"> KONFIRMASI </button>
+</form>
+</section>
+
+</body>
+</html>

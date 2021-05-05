@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="utf-8"/>
+  <title>CHECKOUT</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css" type="text/css"/>
+  <link rel="shortcut icon" href="images/logo.png" />
+  <script type="text/javascript" src="js/pemesanan.js"></script>
+</head>
+
+<body>
+  <section class="checkout-section">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h1>CHECKOUT</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="checkout-form">
+          <form class="form" method="get" action="checkout.html">
+            <h1>Isikan dengan informasi yang lengkap & sesuai.</h1>
+            <div class="row">
+              <p>Nama Lengkap</p>
+              <div class="input-group w50">
+                <input type="text" placeholder="Nama" class="input-control" name="nama" id="nama">
+              </div>
+              <p>E-mail</p>
+              <div class="input-group w50">
+                <input type="email" placeholder="E-mail" class="input-control" name="email" id="email">
+              </div>
+            </div>
+              <p>Nomer HP</p>
+              <div class="input-group w50">
+                <input type="number" placeholder="Nomer HP" class="input-control" name="nomer" id="number">
+              </div>
+              <p>Alamat Lengkap</p>
+              <div class="input-group w50">
+                <input type="text" placeholder="Alamat" class="input-control" name="alamat" id="alamat">
+                <br>
+                <button href="checkout.html" class="myButton" onclick="validation()"> SELANJUTNYA </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
